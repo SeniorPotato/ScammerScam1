@@ -11,7 +11,7 @@ chars = string.ascii_letters + string.digits + '!£$%^&*()'
 random.seed = (os.urandom(1024))
 
 # Paste the url between the ''
-url = ''
+url = 'https://feature-testing.quantum-pfe.com/Account/Login'
 
 # Read in the json files
 names = json.loads(open('names.json').read())
