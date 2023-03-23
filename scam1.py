@@ -24,7 +24,7 @@ for name in names:
     full_name = ''.join(random.choice(surnames))
 
     # Generate random emails and passwords
-    username = name.lower() + surnames.lower() + random.choice(emails)
+    username = random.choice(names) + random.choice(surnames) + random.choice(emails)
     password = random.choice(password_list)
 
     # Get the location where the data is sent from the Chrome network tab
