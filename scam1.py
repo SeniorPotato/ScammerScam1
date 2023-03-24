@@ -30,8 +30,8 @@ for name in names:
     # Get the location where the data is sent from the Chrome network tab
     requests.post(url, allow_redirects=False, data={
         # paste the location of the login credentials here
-        '': username,
-        '': password
+        'UserName': username,
+        'Password': password
     })
 
     print('sending username %s and password %s' % (username, password))
